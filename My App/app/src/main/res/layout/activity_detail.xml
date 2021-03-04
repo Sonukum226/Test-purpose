@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Account"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:id="@+id/user_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hello Sonu, Here is account info"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/selected_phone_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Google Pixel 5 in Sorta Sage"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/Total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Total Cost:$799"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/downpayment_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Based on a downpaymet of $300"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/monthly_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Your monthly payment is:$41.58"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

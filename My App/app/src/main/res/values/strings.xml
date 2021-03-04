@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string-array name="Selectphone">
+        <item>none</item>
+        <item>Google pixel 5</item>
+        <item>Google pixel 4</item>
+        <item>Google Pixel 3</item>
+        <item>iphone 12</item>
+        <item>iphone 11</item>
+        <item>Note 9 Pro max</item>
+    </string-array>
+
+    <string-array name="selectcolor">
+        <item>none</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>black</item>
+        <item>Gold</item>
+        <item>skyBlue</item>
+    </string-array>
+</resources>
